@@ -11748,7 +11748,6 @@ body.lock {
   font-size: 16px;
   line-height: 150%;
   color: #181f48;
-  max-width: 100%;
 }
 
 .select__select {
@@ -12229,6 +12228,11 @@ body.lock {
 
   .archive__btn-2 {
     padding: 8px 10px;
+  }
+
+  .select__name {
+    max-width: 90px;
+    overflow: hidden;
   }
 
   .select__select {
